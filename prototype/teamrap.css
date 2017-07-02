@@ -1,0 +1,77 @@
+/* .. */
+.enyo-scroller {
+	background-image: url('bg.png');
+	background-repeat: repeat;
+}
+.collapsible-header {
+	color: #fff;
+	background-color: #226B9A; /*#152737;*/ /* url(gradient.png) repeat-x bottom; */
+	line-height: 40px;
+	vertical-align: middle;
+	font-size: 16px;
+	font-weight: normal;
+	background-image: url('arrow.png');
+	background-repeat: repeat-y;
+	padding-left: 50px;
+}
+.collapsible-header-expanded {
+	background-position: 0px 40px;	
+}
+.collapsible {
+	margin-top: 1px;
+}
+.collapsible .collapsible {
+	margin-left: 10px;
+}
+.collapsible .collapsible .collapsible {
+	margin-left: 20px;
+}
+.rap-item {
+	background-color: #555;
+	color: #f4f4f4;
+	font-size: 14px;
+	font-weight: normal;
+	padding: 3px 3px;
+	border: 1px solid #226B9A; /*#152737;*/ /*#333333;*/
+	/* border-top: 1px solid #d6d6d6; */
+}
+.rap-item-code, .rap-item-title {
+	display: inline-block;
+}
+.rap-item-code {
+	background-color: #333333;
+	padding: 3px 3px;
+}
+.rap-item-title {
+	margin-left: 4px;
+}
+.rap-item-element, .rap-item-element-readonly {
+	padding-top: 10px;
+}
+.rap-item-edits {
+	background-color: #fff;
+	color: #000;
+	padding: 0 3px 3px;
+}
+.rap-item-user, .rap-item-date {
+	padding: 3px 3px;
+}
+.rap-item-date {
+	font-weight: bold;
+}
+.rap-item-value {
+	display: inline;
+	margin-left: 5px;
+}
+.rap-item-user {
+	background-color: #91BA07;
+	color: #fff;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+.rap-item-input {
+	margin-left: 3px;
+	width: 98% !important;
+	border: 1px solid #bababa !important;
+}
