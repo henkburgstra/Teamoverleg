@@ -1,0 +1,40 @@
+
+Een formulier bestaat uit formulieritems. Items kunnen hierarchisch zijn. Een item met kinderen is een sectie en bevat zelf geen data. Items worden getoond op volgorde van sequence (default gelijk aan code).
+
+
+Item
+====
+code
+name
+type (text = multi-user)
+compulsory
+parent
+
+Formdef
+=====
+id
+name
+
+Formdef_items
+=============
+form_id
+item_code
+sequence
+
+Form
+=====
+created (date)
+
+Form_item
+=========
+form_id
+user
+date/time
+item_code
+value
+
+
+
+
+
+
